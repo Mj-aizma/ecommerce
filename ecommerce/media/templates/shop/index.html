@@ -205,7 +205,7 @@
 		<div class="modal-search-header flex-c-m trans-04 js-hide-modal-search">
 			<div class="container-search-header">
 				<button  6 class="flex-c-m btn-hide-modal-search trans-04 js-hide-modal-search">
-					<img src="images/icons/icon-close2.png" alt="CLOSE">
+					<img src="{% static 'images/icons/icon-close2.png' %}" alt="CLOSE">
 				</button>
 
 				<form class="wrap-search-header flex-w p-l-15">
@@ -237,7 +237,7 @@
 				<ul class="header-cart-wrapitem w-full">
 					<li class="header-cart-item flex-w flex-t m-b-12">
 						<div class="header-cart-item-img">
-							<img src="images/item-cart-01.jpg" alt="IMG">
+							<img src="{% static 'images/item-cart-01.jpg' %}" alt="IMG">
 						</div>
 
 						<div class="header-cart-item-txt p-t-8">
@@ -253,7 +253,7 @@
 
 					<li class="header-cart-item flex-w flex-t m-b-12">
 						<div class="header-cart-item-img">
-							<img src="images/item-cart-02.jpg" alt="IMG">
+							<img src="{% static 'images/item-cart-02.jpg' %}" alt="IMG">
 						</div>
 
 						<div class="header-cart-item-txt p-t-8">
@@ -269,7 +269,7 @@
 
 					<li class="header-cart-item flex-w flex-t m-b-12">
 						<div class="header-cart-item-img">
-							<img src="images/item-cart-03.jpg" alt="IMG">
+							<img src="{% static 'images/item-cart-03.jpg' %}" alt="IMG">
 						</div>
 
 						<div class="header-cart-item-txt p-t-8">
@@ -310,7 +310,7 @@
 	<section class="section-slide">
 		<div class="wrap-slick1">
 			<div class="slick1">
-				<div class="item-slick1 index-slide" style="background: url(images/index_back.png) center center no-repeat; background-size: cover; height: 725px;">
+				<div class="item-slick1 index-slide" style="background: url({% static 'images/index_back.png' %}) center center no-repeat; background-size: cover; height: 725px;">
 					<div class="container h-full">
 						<div class="flex-col-l-m h-full p-t-100 p-b-30 respon5 center">
 							<div class="layer-slick1 animated visible-false" data-appear="fadeInDown" data-delay="0">
@@ -335,55 +335,56 @@
 							</div>
 						</div>
 					</div>
-				</div>
-				<!-- 
-				<div class="item-slick1" style="background-image: url(images/slide-02.jpg);">
-					<div class="container h-full">
-						<div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
-							<div class="layer-slick1 animated visible-false" data-appear="rollIn" data-delay="0">
-								<span class="ltext-101 cl2 respon2">
-									Men New-Season
-								</span>
-							</div>
-								
-							<div class="layer-slick1 animated visible-false" data-appear="lightSpeedIn" data-delay="800">
-								<h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1">
-									Jackets & Coats
-								</h2>
-							</div>
-								
-							<div class="layer-slick1 animated visible-false" data-appear="slideInUp" data-delay="1600">
-								<a href="product.html" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
-									Shop Now
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
 
-				<div class="item-slick1" style="background-image: url(images/slide-03.jpg);">
-					<div class="container h-full">
-						<div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
-							<div class="layer-slick1 animated visible-false" data-appear="rotateInDownLeft" data-delay="0">
-								<span class="ltext-101 cl2 respon2">
-									Men Collection 2018
-								</span>
-							</div>
-								
-							<div class="layer-slick1 animated visible-false" data-appear="rotateInUpRight" data-delay="800">
-								<h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1">
-									New arrivals
-								</h2>
-							</div>
-								
-							<div class="layer-slick1 animated visible-false" data-appear="rotateIn" data-delay="1600">
-								<a href="product.html" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
-									Shop Now
-								</a>
-							</div>
-						</div>
-					</div>
-				</div> -->
+				</div>
+{#				<!-- #}
+{#				<div class="item-slick1" style="background-image: url(images/slide-02.jpg);">#}
+{#					<div class="container h-full">#}
+{#						<div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">#}
+{#							<div class="layer-slick1 animated visible-false" data-appear="rollIn" data-delay="0">#}
+{#								<span class="ltext-101 cl2 respon2">#}
+{#									Men New-Season#}
+{#								</span>#}
+{#							</div>#}
+{#								#}
+{#							<div class="layer-slick1 animated visible-false" data-appear="lightSpeedIn" data-delay="800">#}
+{#								<h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1">#}
+{#									Jackets & Coats#}
+{#								</h2>#}
+{#							</div>#}
+{#								#}
+{#							<div class="layer-slick1 animated visible-false" data-appear="slideInUp" data-delay="1600">#}
+{#								<a href="product.html" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">#}
+{#									Shop Now#}
+{#								</a>#}
+{#							</div>#}
+{#						</div>#}
+{#					</div>#}
+{#				</div>#}
+{##}
+{#				<div class="item-slick1" style="background-image: url(images/slide-03.jpg);">#}
+{#					<div class="container h-full">#}
+{#						<div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">#}
+{#							<div class="layer-slick1 animated visible-false" data-appear="rotateInDownLeft" data-delay="0">#}
+{#								<span class="ltext-101 cl2 respon2">#}
+{#									Men Collection 2018#}
+{#								</span>#}
+{#							</div>#}
+{#								#}
+{#							<div class="layer-slick1 animated visible-false" data-appear="rotateInUpRight" data-delay="800">#}
+{#								<h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1">#}
+{#									New arrivals#}
+{#								</h2>#}
+{#							</div>#}
+{#								#}
+{#							<div class="layer-slick1 animated visible-false" data-appear="rotateIn" data-delay="1600">#}
+{#								<a href="product.html" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">#}
+{#									Shop Now#}
+{#								</a>#}
+{#							</div>#}
+{#						</div>#}
+{#					</div>#}
+{#				</div> -->#}
 
 
 			</div>
@@ -391,97 +392,97 @@
 	</section>
 
 
-	<!-- Banner -->
-	<!-- <div class="sec-banner bg0 p-t-80 p-b-50">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-xl-4 p-b-30 m-lr-auto"> -->
+{#	<!-- Banner -->#}
+{#	<!-- <div class="sec-banner bg0 p-t-80 p-b-50">#}
+{#		<div class="container">#}
+{#			<div class="row">#}
+{#				<div class="col-md-6 col-xl-4 p-b-30 m-lr-auto"> -->#}
+{##}
+{#	<!-- Block1 -->#}
+{##}
+{#	<!-- <div class="block1 wrap-pic-w">#}
+{#						<img src="images/banner-01.jpg" alt="IMG-BANNER">#}
+{##}
+{#						<a href="product.html" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">#}
+{#							<div class="block1-txt-child1 flex-col-l">#}
+{#								<span class="block1-name ltext-102 trans-04 p-b-8">#}
+{#									Women#}
+{#								</span>#}
+{##}
+{#								<span class="block1-info stext-102 trans-04">#}
+{#									Spring 2018#}
+{#								</span>#}
+{#							</div>#}
+{##}
+{#							<div class="block1-txt-child2 p-b-4 trans-05">#}
+{#								<div class="block1-link stext-101 cl0 trans-09">#}
+{#									Shop Now#}
+{#								</div>#}
+{#							</div>#}
+{#						</a>#}
+{#					</div>#}
+{#				</div>#}
+{##}
+{#				#}
+{#				<div class="col-md-6 col-xl-4 p-b-30 m-lr-auto"> -->#}
+{##}
+{#	<!-- Block1 -->#}
+{##}
+{#	<!-- <div class="block1 wrap-pic-w">#}
+{#						<img src="images/banner-02.jpg" alt="IMG-BANNER">#}
+{##}
+{#						<a href="product.html" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">#}
+{#							<div class="block1-txt-child1 flex-col-l">#}
+{#								<span class="block1-name ltext-102 trans-04 p-b-8">#}
+{#									Men#}
+{#								</span>#}
+{##}
+{#								<span class="block1-info stext-102 trans-04">#}
+{#									Spring 2018#}
+{#								</span>#}
+{#							</div>#}
+{##}
+{#							<div class="block1-txt-child2 p-b-4 trans-05">#}
+{#								<div class="block1-link stext-101 cl0 trans-09">#}
+{#									Shop Now#}
+{#								</div>#}
+{#							</div>#}
+{#						</a>#}
+{#					</div>#}
+{#				</div>#}
+{##}
+{#				<div class="col-md-6 col-xl-4 p-b-30 m-lr-auto"> -->#}
+{##}
+{#	<!-- Block1 -->#}
+{##}
+{#	<!-- <div class="block1 wrap-pic-w">#}
+{#						<img src="images/banner-03.jpg" alt="IMG-BANNER">#}
+{##}
+{#						<a href="product.html" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">#}
+{#							<div class="block1-txt-child1 flex-col-l">#}
+{#								<span class="block1-name ltext-102 trans-04 p-b-8">#}
+{#									Accessories#}
+{#								</span>#}
+{##}
+{#								<span class="block1-info stext-102 trans-04">#}
+{#									New Trend#}
+{#								</span>#}
+{#							</div>#}
+{##}
+{#							<div class="block1-txt-child2 p-b-4 trans-05">#}
+{#								<div class="block1-link stext-101 cl0 trans-09">#}
+{#									Shop Now#}
+{#								</div>#}
+{#							</div>#}
+{#						</a>#}
+{#					</div>#}
+{#				</div>#}
+{#			</div>#}
+{#		</div>#}
+{#	</div> -->#}
 
-	<!-- Block1 -->
 
-	<!-- <div class="block1 wrap-pic-w">
-						<img src="images/banner-01.jpg" alt="IMG-BANNER">
-
-						<a href="product.html" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
-							<div class="block1-txt-child1 flex-col-l">
-								<span class="block1-name ltext-102 trans-04 p-b-8">
-									Women
-								</span>
-
-								<span class="block1-info stext-102 trans-04">
-									Spring 2018
-								</span>
-							</div>
-
-							<div class="block1-txt-child2 p-b-4 trans-05">
-								<div class="block1-link stext-101 cl0 trans-09">
-									Shop Now
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-
-				
-				<div class="col-md-6 col-xl-4 p-b-30 m-lr-auto"> -->
-
-	<!-- Block1 -->
-
-	<!-- <div class="block1 wrap-pic-w">
-						<img src="images/banner-02.jpg" alt="IMG-BANNER">
-
-						<a href="product.html" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
-							<div class="block1-txt-child1 flex-col-l">
-								<span class="block1-name ltext-102 trans-04 p-b-8">
-									Men
-								</span>
-
-								<span class="block1-info stext-102 trans-04">
-									Spring 2018
-								</span>
-							</div>
-
-							<div class="block1-txt-child2 p-b-4 trans-05">
-								<div class="block1-link stext-101 cl0 trans-09">
-									Shop Now
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-
-				<div class="col-md-6 col-xl-4 p-b-30 m-lr-auto"> -->
-
-	<!-- Block1 -->
-
-	<!-- <div class="block1 wrap-pic-w">
-						<img src="images/banner-03.jpg" alt="IMG-BANNER">
-
-						<a href="product.html" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
-							<div class="block1-txt-child1 flex-col-l">
-								<span class="block1-name ltext-102 trans-04 p-b-8">
-									Accessories
-								</span>
-
-								<span class="block1-info stext-102 trans-04">
-									New Trend
-								</span>
-							</div>
-
-							<div class="block1-txt-child2 p-b-4 trans-05">
-								<div class="block1-link stext-101 cl0 trans-09">
-									Shop Now
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
-
-	<!-- product slider best version -->
+{#	<!-- product slider best version -->#}
 <div id = 'myproduct-index'></div>
 	<br>
 	<br class="hide-in-mobile">
@@ -489,7 +490,7 @@
 	<br class="hide-in-mobile">
 
 
-	<!-- NEW PRODUCT for DESKTOP -->
+{#	<!-- NEW PRODUCT for DESKTOP -->#}
 	<section class="container p-t-3 hide-in-mobile">
 		<div class="row">
 			<div class="col-lg-12">
@@ -535,7 +536,7 @@
 					<div class="product-grid6">
 						<div class="product-image6">
 							<a href="#">
-								<img class="pic-1" src="images/product-slider/2.jpg">
+								<img class="pic-1" src="{% static 'images/product-slider/2.jpg' %}">
 							</a>
 						</div>
 						<div class="product-content">
@@ -555,7 +556,7 @@
 					<div class="product-grid6">
 						<div class="product-image6">
 							<a href="#">
-								<img class="pic-1" src="images/product-slider/3.jpg">
+								<img class="pic-1" src="{% static 'images/product-slider/3.jpg' %}">
 							</a>
 						</div>
 						<div class="product-content">
@@ -575,7 +576,7 @@
 					<div class="product-grid6">
 						<div class="product-image6">
 							<a href="#">
-								<img class="pic-1" src="images/product-slider/4.jpg">
+								<img class="pic-1" src="{% static 'images/product-slider/4.jpg' %}">
 							</a>
 						</div>
 						<div class="product-content">
@@ -596,7 +597,7 @@
 					<div class="product-grid6">
 						<div class="product-image6">
 							<a href="#">
-								<img class="pic-1" src="images/product-slider/5.jpg">
+								<img class="pic-1" src="{% static 'images/product-slider/5.jpg' %}">
 							</a>
 						</div>
 						<div class="product-content">
@@ -616,7 +617,7 @@
 					<div class="product-grid6">
 						<div class="product-image6">
 							<a href="#">
-								<img class="pic-1" src="images/product-slider/6.jpg">
+								<img class="pic-1" src="{% static 'images/product-slider/6.jpg' %}">
 							</a>
 						</div>
 						<div class="product-content">
@@ -636,7 +637,7 @@
 					<div class="product-grid6">
 						<div class="product-image6">
 							<a href="#">
-								<img class="pic-1" src="images/product-slider/7.jpg">
+								<img class="pic-1" src="{% static 'images/product-slider/7.jpg' %}">
 							</a>
 						</div>
 						<div class="product-content">
@@ -656,7 +657,7 @@
 					<div class="product-grid6">
 						<div class="product-image6">
 							<a href="#">
-								<img class="pic-1" src="images/product-slider/8.jpg">
+								<img class="pic-1" src="{% static 'images/product-slider/8.jpg' %}">
 							</a>
 						</div>
 						<div class="product-content">
@@ -710,7 +711,7 @@
 					<div class="product-grid6">
 						<div class="product-image6">
 							<a href="#">
-								<img class="pic-1" src="images/product-slider/1.jpg">
+								<img class="pic-1" src="{% static 'images/product-slider/1.jpg' %}">
 							</a>
 						</div>
 						<div class="product-content">
@@ -730,7 +731,7 @@
 					<div class="product-grid6">
 						<div class="product-image6">
 							<a href="#">
-								<img class="pic-1" src="images/product-slider/2.jpg">
+								<img class="pic-1" src="{% static 'images/product-slider/2.jpg' %}">
 							</a>
 						</div>
 						<div class="product-content">
@@ -750,7 +751,7 @@
 					<div class="product-grid6">
 						<div class="product-image6">
 							<a href="#">
-								<img class="pic-1" src="images/product-slider/3.jpg">
+								<img class="pic-1" src="{% static 'images/product-slider/3.jpg' %}">
 							</a>
 						</div>
 						<div class="product-content">
@@ -772,7 +773,7 @@
 					<div class="product-grid6">
 						<div class="product-image6">
 							<a href="#">
-								<img class="pic-1" src="images/product-slider/4.jpg">
+								<img class="pic-1" src="{% static 'images/product-slider/4.jpg' %}">
 							</a>
 						</div>
 						<div class="product-content">
@@ -791,7 +792,7 @@
 					<div class="product-grid6">
 						<div class="product-image6">
 							<a href="#">
-								<img class="pic-1" src="images/product-slider/5.jpg">
+								<img class="pic-1" src="{% static 'images/product-slider/5.jpg' %}">
 							</a>
 						</div>
 						<div class="product-content">
@@ -811,7 +812,7 @@
 					<div class="product-grid6">
 						<div class="product-image6">
 							<a href="#">
-								<img class="pic-1" src="images/product-slider/6.jpg">
+								<img class="pic-1" src="{% static 'images/product-slider/6.jpg' %}">
 							</a>
 						</div>
 						<div class="product-content">
@@ -834,7 +835,7 @@
 					<div class="product-grid6">
 						<div class="product-image6">
 							<a href="#">
-								<img class="pic-1" src="images/product-slider/7.jpg">
+								<img class="pic-1" src="{% static 'images/product-slider/7.jpg' %}">
 							</a>
 						</div>
 						<div class="product-content">
@@ -853,7 +854,7 @@
 					<div class="product-grid6">
 						<div class="product-image6">
 							<a href="#">
-								<img class="pic-1" src="images/product-slider/8.jpg">
+								<img class="pic-1" src="{% static 'images/product-slider/8.jpg' %}">
 							</a>
 						</div>
 						<div class="product-content">
@@ -874,7 +875,7 @@
 			</div>
 
 		</div>
-		<!-- Load more -->
+{#		<!-- Load more -->#}
 		<div class="flex-c-m flex-w w-full">
 			<a href="#" class="flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
 				مشاهده همه
@@ -910,7 +911,7 @@
 				<div class="col-md-3 col-sm-4 col-6">
 					<div class="card">
 						<img class="d-block img-fluid"
-							src="images/product-slider/1.jpg"
+							src="{% static 'images/product-slider/1.jpg' %}"
 							class="card-img-top" alt="...">
 						<div class="card-body">
 							<h5 class="card-title center"> شامپو بچه سعیدی</h5>
@@ -928,7 +929,7 @@
 				<div class="col-md-3 col-sm-4 col-6">
 						<div class="card">
 							<img class="d-block img-fluid"
-								src="images/product-slider/2.jpg"
+								src="{% static 'images/product-slider/2.jpg' %}"
 								class="card-img-top" alt="...">
 							<div class="card-body">
 								<h5 class="card-title center"> شامپو بچه سعیدی</h5>
@@ -948,7 +949,7 @@
 					<div class="col-md-3 col-sm-4 col-6">
 							<div class="card">
 								<img class="d-block img-fluid"
-									src="images/product-slider/3.jpg"
+									src="{% static 'images/product-slider/3.jpg' %}"
 									class="card-img-top" alt="...">
 								<div class="card-body">
 									<h5 class="card-title center"> شامپو بچه سعیدی</h5>
@@ -965,7 +966,7 @@
 					<div class="col-md-3 col-sm-4 col-6">
 							<div class="card">
 								<img class="d-block img-fluid"
-									src="images/product-slider/4.jpg"
+									src="{% static 'images/product-slider/4.jpg' %}"
 									class="card-img-top" alt="...">
 								<div class="card-body">
 									<h5 class="card-title center"> شامپو بچه سعیدی</h5>
@@ -986,7 +987,7 @@
 					<div class="col-md-3 col-sm-4 col-6">
 							<div class="card">
 								<img class="d-block img-fluid"
-									src="images/product-slider/5.jpg"
+									src="{% static 'images/product-slider/5.jpg' %}"
 									class="card-img-top" alt="...">
 								<div class="card-body">
 									<h5 class="card-title center"> شامپو بچه سعیدی</h5>
@@ -1004,7 +1005,7 @@
 						<div class="col-md-3 col-sm-4 col-6">
 								<div class="card">
 									<img class="d-block img-fluid"
-										src="images/product-slider/6.jpg"
+										src="{% static 'images/product-slider/6.jpg' %}"
 										class="card-img-top" alt="...">
 									<div class="card-body">
 										<h5 class="card-title center"> شامپو بچه سعیدی</h5>
@@ -1025,7 +1026,7 @@
 					<div class="col-md-3 col-sm-4 col-6">
 							<div class="card">
 								<img class="d-block img-fluid"
-									src="images/product-slider/7.jpg"
+									src="{% static 'images/product-slider/7.jpg' %}"
 									class="card-img-top" alt="...">
 								<div class="card-body">
 									<h5 class="card-title center"> شامپو بچه سعیدی</h5>
@@ -1043,7 +1044,7 @@
 						<div class="col-md-3 col-sm-4 col-6">
 								<div class="card">
 									<img class="d-block img-fluid"
-										src="images/product-slider/8.jpg"
+										src="{% static 'images/product-slider/8.jpg' %}"
 										class="card-img-top" alt="...">
 									<div class="card-body">
 										<h5 class="card-title center"> شامپو بچه سعیدی</h5>
@@ -1072,12 +1073,12 @@
 
 	
 
-	<!-- end of product slider -->
+{#	<!-- end of product slider -->#}
 
 
 
 
-	<!-- Footer -->
+{#	<!-- Footer -->#}
 	<br>
 	<br>
 	<footer class="bg3 p-t-75 p-b-32">
@@ -1218,21 +1219,21 @@
 	</footer>
 
 
-	<!-- Back to top -->
+{#	<!-- Back to top -->#}
 	<div class="btn-back-to-top" id="myBtn">
 		<span class="symbol-btn-back-to-top">
 			<i class="zmdi zmdi-chevron-up"> </i>
 		</span>
 	</div>
 
-	<!-- Modal1 -->
+{#	<!-- Modal1 -->#}
 	<div class="wrap-modal1 js-modal1 p-t-60 p-b-20" dir="ltr">
 		<div class="overlay-modal1 js-hide-modal1"></div>
 
 		<div class="container">
 			<div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
 				<button class="how-pos3 hov3 trans-04 js-hide-modal1">
-					<img src="images/icons/icon-close.png" alt="CLOSE">
+					<img src="{% static 'images/icons/icon-close.png' %}" alt="CLOSE">
 				</button>
 
 				<div class="row">
@@ -1243,34 +1244,34 @@
 								<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
 
 								<div class="slick3 gallery-lb">
-									<div class="item-slick3" data-thumb="images/product-detail-01.jpg">
+									<div class="item-slick3" data-thumb="{% static 'images/product-detail-01.jpg' %}">
 										<div class="wrap-pic-w pos-relative">
-											<img src="images/product-detail-01.jpg" alt="IMG-PRODUCT">
+											<img src="{% static 'images/product-detail-01.jpg' %}" alt="IMG-PRODUCT">
 
 											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
-												href="images/product-detail-01.jpg">
+												href="{% static 'images/product-detail-01.jpg' %}">
 												<i class="fa fa-expand"></i>
 											</a>
 										</div>
 									</div>
 
-									<div class="item-slick3" data-thumb="images/product-detail-02.jpg">
+									<div class="item-slick3" data-thumb="{% static 'images/product-detail-02.jpg' %}">
 										<div class="wrap-pic-w pos-relative">
-											<img src="images/product-detail-02.jpg" alt="IMG-PRODUCT">
+											<img src="{% static 'images/product-detail-02.jpg' %}" alt="IMG-PRODUCT">
 
 											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
-												href="images/product-detail-02.jpg">
+												href="{% static 'images/product-detail-02.jpg' %}">
 												<i class="fa fa-expand"></i>
 											</a>
 										</div>
 									</div>
 
-									<div class="item-slick3" data-thumb="images/product-detail-03.jpg">
+									<div class="item-slick3" data-thumb="{% static 'images/product-detail-03.jpg' %}">
 										<div class="wrap-pic-w pos-relative">
-											<img src="images/product-detail-03.jpg" alt="IMG-PRODUCT">
+											<img src="{% static 'images/product-detail-03.jpg' %}" alt="IMG-PRODUCT">
 
 											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
-												href="images/product-detail-03.jpg">
+												href="{% static 'images/product-detail-03.jpg' %}">
 												<i class="fa fa-expand"></i>
 											</a>
 										</div>
@@ -1390,15 +1391,15 @@
 		</div>
 	</div>
 
-	<!--===============================================================================================-->
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-	<!--===============================================================================================-->
-	<script src="vendor/animsition/js/animsition.min.js"></script>
-	<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-	<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
+{#	<!--===============================================================================================-->#}
+	<script src="{% static 'vendor/jquery/jquery-3.2.1.min.js' %}"></script>
+{#	<!--===============================================================================================-->#}
+	<script src="{% static 'vendor/animsition/js/animsition.min.js' %}"></script>
+{#	<!--===============================================================================================-->#}
+	<script src="{% static 'vendor/bootstrap/js/popper.js' %}"></script>
+	<script src="{% static 'vendor/bootstrap/js/bootstrap.min.js' %}"></script>
+{#	<!--===============================================================================================-->#}
+	<script src="{% static 'vendor/select2/select2.min.js' %}"></script>
 	<script>
 		$(".js-select2").each(function () {
 			$(this).select2({
@@ -1410,19 +1411,19 @@
 
 
 
-	<!--===============================================================================================-->
-	<script src="vendor/daterangepicker/moment.min.js"></script>
-	<script src="vendor/daterangepicker/daterangepicker.js"></script>
-	<!--===============================================================================================-->
-	<script src="vendor/slick/slick.min.js"></script>
-	<script src="js/slick-custom.js"></script>
-	<!--===============================================================================================-->
-	<script src="vendor/parallax100/parallax100.js"></script>
+{#	<!--===============================================================================================-->#}
+	<script src="{% static 'vendor/daterangepicker/moment.min.js' %}"></script>
+	<script src="{% static 'vendor/daterangepicker/daterangepicker.js' %}"></script>
+{#	<!--===============================================================================================-->#}
+	<script src="{% static 'vendor/slick/slick.min.js' %}"></script>
+	<script src="{% static 'js/slick-custom.js' %}"></script>
+{#	<!--===============================================================================================-->#}
+	<script src="{% static 'vendor/parallax100/parallax100.js' %}"></script>
 	<script>
 		$('.parallax100').parallax100();
 	</script>
-	<!--===============================================================================================-->
-	<script src="vendor/MagnificPopup/jquery.magnific-popup.min.js"></script>
+{#	<!--===============================================================================================-->#}
+	<script src="{% static 'vendor/MagnificPopup/jquery.magnific-popup.min.js' %}"></script>
 	<script>
 		$('.gallery-lb').each(function () { // the containers for all your galleries
 			$(this).magnificPopup({
@@ -1435,10 +1436,10 @@
 			});
 		});
 	</script>
-	<!--===============================================================================================-->
-	<script src="vendor/isotope/isotope.pkgd.min.js"></script>
-	<!--===============================================================================================-->
-	<script src="vendor/sweetalert/sweetalert.min.js"></script>
+{#	<!--===============================================================================================-->#}
+	<script src="{% static 'vendor/isotope/isotope.pkgd.min.js' %}"></script>
+{#	<!--===============================================================================================-->#}
+	<script src="{% static 'vendor/sweetalert/sweetalert.min.js' %}"></script>
 	<script>
 		$('.js-addwish-b2').on('click', function (e) {
 			e.preventDefault();
@@ -1465,7 +1466,7 @@
 			});
 		});
 
-		/*---------------------------------------------*/
+		{#/*---------------------------------------------*/#}
 
 		$('.js-addcart-detail').each(function () {
 			var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();
@@ -1474,8 +1475,8 @@
 			});
 		});
 	</script>
-	<!--===============================================================================================-->
-	<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+{#	<!--===============================================================================================-->#}
+	<script src="{% static 'vendor/perfect-scrollbar/perfect-scrollbar.min.js' %}"></script>
 	<script>
 		$('.js-pscroll').each(function () {
 			$(this).css('position', 'relative');
@@ -1491,8 +1492,8 @@
 			})
 		});
 	</script>
-	<!--===============================================================================================-->
-	<script src="{% static 'js/main.js'"></script>
+{#	<!--===============================================================================================-->#}
+	<script src="{% static 'js/main.js'%}"></script>
 
 </body>
 

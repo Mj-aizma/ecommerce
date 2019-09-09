@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% for object in objects %}
+        {{ object.name }}
+        {{ object.company }}
+        {{ object.category }}
+        <img src="media/{{ object.image }}">
+    {% endfor %}
+</body>
+</html>
