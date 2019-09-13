@@ -17,6 +17,8 @@ from django.conf import settings
 from django.views.static import serve
 from django.conf.urls import url
 
+
+
 from django.contrib import admin
 from django.urls import path ,include
 from shop import views
@@ -24,7 +26,9 @@ from shop import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('shop/', include('shop.urls')),
-    path('' , views.index )
+    path('' , views.index ),
+    url(r'^signup/$', views.signup, name='signup'),
+    path('contactus/' , views.contactus)
 ]
 
 if settings.DEBUG:
@@ -33,3 +37,12 @@ if settings.DEBUG:
             'document_root': settings.MEDIA_ROOT,
         }),
     ]
+
+
+# from django.conf.urls import url
+# from mysite.core import views as core_views
+
+# urlpatterns = [
+#     ...
+#     url(r'^signup/$', core_views.signup, name='signup'),
+# ]

@@ -1,5 +1,6 @@
 from django.db import models
 from django.utils.translation import gettext_lazy as _
+import datetime
 
 # Create your models here.
 
@@ -12,3 +13,8 @@ class Object(models.Model):
     sheet = models.FileField(_('object sheet') , upload_to='db/sheet/%Y/%m/%d/', max_length=200 , blank=True , null=True)
     created_at = models.DateTimeField( blank=True , null=True)
     updated_at = models.DateTimeField( blank=True , null=True)
+
+class ContactUs(models.Model):
+    title = models.CharField(_('title of message') , max_length=200)
+    description = models.TextField(_('description of message'))
+    published_at = models.DateTimeField(auto_now_add=True)
