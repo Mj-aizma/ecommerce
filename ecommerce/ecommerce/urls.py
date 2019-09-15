@@ -28,7 +28,8 @@ urlpatterns = [
     path('shop/', include('shop.urls')),
     path('' , views.index ),
     url(r'^signup/$', views.signup, name='signup'),
-    path('contactus/' , views.contactus)
+    path('contactus/' , include('contactus.urls')),
+    # path('contactus/' , views.contactus)
 ]
 
 if settings.DEBUG:
