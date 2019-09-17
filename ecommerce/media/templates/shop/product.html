@@ -1,31 +1,30 @@
-{% extends "base.html" %}
+{% extends "shop/base.html" %}
 
 {% load static %}
 
 {% block content %}
 
-<section id="myproduct">	
-	<!-- Product -->
-	<br class="hide-in-mobile">
-	<br class="hide-in-mobile">
-	<br class="hide-in-mobile">
-	<br class="hide-in-mobile">
-	<br class="hide-in-mobile">
-	<div class="container m-t-50">
-			<nav aria-label="breadcrumb">
-							
-					<ol class="breadcrumb">
-							<p> <i class="fa fa-caret-left" aria-hidden="true"></i> شما اینجا هستید:  &nbsp  &nbsp </p> 
-					<li class="breadcrumb-item"><a href="/" class="text-primary">خانه</a></li>
-					<li class="breadcrumb-item active" aria-current="page">محصولات</li>
-					</ol>
-				</nav>
-			</div>
-	<div class="bg0 p-t-23 p-b-140 my_back col-md-11" style="margin: 0 auto; margin-top:50px !important ; margin-bottom:30px" >
+    <section id="myproduct">
+        <!-- Product -->
+        <br class="hide-in-mobile">
+        <br class="hide-in-mobile">
+        <br class="hide-in-mobile">
+        <br class="hide-in-mobile">
+        <br class="hide-in-mobile">
+        <div class="container m-t-50">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <p> <i class="fa fa-caret-left" aria-hidden="true"></i> شما اینجا هستید:  &nbsp  &nbsp </p>
+                    <li class="breadcrumb-item"><a href="/" class="text-primary">خانه</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">محصولات</li>
+                </ol>
+            </nav>
+        </div>
+	    <div class="bg0 p-t-23 p-b-140 my_back col-md-11" style="margin: 0 auto; margin-top:50px !important ; margin-bottom:30px" >
 			<div class="container">
 				<div class="p-b-10">
 					<h2 class="ltext-103 cl8 p-t-25">
-							<i class="fa fa-shopping-basket"></i> محصولات
+                        <i class="fa fa-shopping-basket"></i> محصولات
 					</h2>
 				</div>
 	
@@ -784,11 +783,11 @@
 				<!-- Load more -->
 				<div class="flex-c-m flex-w w-full p-t-45">
 					<a href="#" class="flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
-	مشاهده بیشتر
+	            مشاهده بیشتر
 					</a>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	{% endblock content %}
+{% endblock content %}

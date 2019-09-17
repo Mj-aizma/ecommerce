@@ -26,9 +26,11 @@ from shop import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('shop/', include('shop.urls')),
+    path('contactus/' , include('contactus.urls')),
+    path('products/' , include('products.urls')),
     path('' , views.index ),
     url(r'^signup/$', views.signup, name='signup'),
-    path('contactus/' , include('contactus.urls')),
+
     # path('contactus/' , views.contactus)
 ]
 
