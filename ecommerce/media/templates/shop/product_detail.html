@@ -1,340 +1,355 @@
-{% extends "base.html" %}
+{#{% extends "base.html" %}#}
+{##}
+{#{% load static %}#}
+{##}
+{#{% block content %}#}
+{##}
+{#	<br class="hide-in-mobile">#}
+{#	<br class="hide-in-mobile">#}
+{#	<br class="hide-in-mobile">#}
+{#	<br class="hide-in-mobile">#}
+{#	<br class="hide-in-mobile">#}
+{#	<br class="hide-in-mobile">#}
+{#	<br class="">#}
+{#	#}
+{#	<div class="container">#}
+{#			<nav aria-label="breadcrumb">#}
+{#				#}
+{#					<ol class="breadcrumb">#}
+{#							<p> <i class="fa fa-caret-left" aria-hidden="true"></i> شما اینجا هستید:  &nbsp  &nbsp </p> #}
+{#					  <li class="breadcrumb-item"><a href="/" class = "text-primary">خانه</a></li>#}
+{#					  <li class="breadcrumb-item"><a href="/product/" class = "text-primary">محصولات</a></li>#}
+{#					  <li class="breadcrumb-item active" aria-current="page">گوشی موبایل سامسونگ مدل Galaxy A50 SM-A505F/DS دو سیم کارت ظرفیت 128گیگابایت</li>#}
+{#					</ol>#}
+{#				  </nav>#}
+{#		<div class="row my_back">#}
+{#			<!-- product slider  -->#}
+{#			<div class="col-md-5">#}
+{#				<div class="row">#}
+{#					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">#}
+{#							<ol class="carousel-indicators">#}
+{#							  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>#}
+{#							  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>#}
+{#							  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>#}
+{##}
+{#							</ol>#}
+{#							<div class="carousel-inner">#}
+{#							  <div class="carousel-item active">#}
+{#								<a class="imagemodal" data-toggle="modal" data-target="#exampleModalCenter" href="https://dkstatics-public.digikala.com/digikala-products/111460798.jpg?x-oss-process=image/resize,h_800/quality,q_80"><img src="https://dkstatics-public.digikala.com/digikala-products/111460798.jpg?x-oss-process=image/resize,h_800/quality,q_80" class="d-block w-100" alt="..."></a>#}
+{#							  </div>#}
+{#							  <div class="carousel-item">#}
+{#								<a class="imagemodal" data-toggle="modal" data-target="#exampleModalCenter"  href="https://dkstatics-public-2.digikala.com/digikala-products/111460791.jpg?x-oss-process=image/resize,h_800/quality,q_80"><img src="https://dkstatics-public-2.digikala.com/digikala-products/111460791.jpg?x-oss-process=image/resize,h_800/quality,q_80" class="d-block w-100" alt="..."></a>#}
+{#							  </div>#}
+{#							  <div class="carousel-item">#}
+{#								<a class="imagemodal" data-toggle="modal" data-target="#exampleModalCenter"  href="https://dkstatics-public.digikala.com/digikala-products/111460800.jpg?x-oss-process=image/resize,h_800/quality,q_80"><img src="https://dkstatics-public.digikala.com/digikala-products/111460800.jpg?x-oss-process=image/resize,h_800/quality,q_80" class="d-block w-100" alt="..."></a>#}
+{#							  </div>#}
+{#							</div>#}
+{##}
+{#							<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">#}
+{#							  <span class="carousel-control-prev-icon" aria-hidden="true"></span>#}
+{#							  <span class="sr-only">Previous</span>#}
+{#							</a>#}
+{#							<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">#}
+{#							  <span class="carousel-control-next-icon" aria-hidden="true"></span>#}
+{#							  <span class="sr-only">Next</span>#}
+{#							</a>#}
+{#						  </div>#}
+{#					</div>#}
+{#					<div class="row m-t-50 m-b-50">#}
+{#						<div class="btn-group  myicons-product-detail " role="group" aria-label="Basic example">#}
+{#								#}
+{#							<button type="button" class="btn btn-light " data-container="body" data-toggle="popover" data-placement="right" data-content="اضافه به علاقه مندی های من"><i class="fa fa-heart-o myheart text-danger	" aria-hidden="true"></i></button>#}
+{#							<button type="button" class="btn btn-light" data-container="body" data-toggle="popover" data-placement="left" data-content="اشتراک گذاری"><i class="fa fa-share-alt text-primary" aria-hidden="true"></i></button>#}
+{##}
+{#						</div>#}
+{#					</div>#}
+{#			</div>#}
+{#			#}
+{##}
+{##}
+{#			<div class="col-md-7">#}
+{#					<br class="hide-in-desktop">#}
+{#					<div class=" border-light" style="border-radius: 0px">#}
+{#							<div class="card-header mycard-header ">گوشی موبایل سامسونگ مدل Galaxy A50 SM-A505F/DS دو سیم کارت ظرفیت 128گیگابایت</div>#}
+{#							<div class="card-body">#}
+{#							  <h6 class="card-title text-muted">Samsung Galaxy A50 SM-A505F/DS Dual SIM 128GB Mobile Phone</h6>#}
+{#							 <div class="row">#}
+{#								 <div class="col-md-10">#}
+{#									 <br>#}
+{#									 <h5><i class="fa fa-th-list"></i> ویژگی های محصول</h5>#}
+{#									 <br>#}
+{#									 <p class="p-r-10 p-b-10"><i class="fa fa-check"></i> حافظه داخلی : 128 گیگابایت</p>#}
+{#									 <p class="p-r-10 p-b-10"><i class="fa fa-check"></i> شبکه های ارتباطی : 2G 3G 4G</p>#}
+{#									 <p class="p-r-10 p-b-10"><i class="fa fa-check"></i> مقدار RAM : 4 گیگابایت</p>#}
+{#									 <p class="p-r-10 p-b-10"><i class="fa fa-check"></i>باتری قابل تعویض : خیر</p>#}
+{#									 <p class="p-r-10 p-b-10"><i class="fa fa-check"></i> تعداد سیم کارت : دو</p>#}
+{#									 <br>#}
+{#								 </div>#}
+{#							  <div class="input-group col-md-4 col-9 mb-2">#}
+{#									<div class="input-group-prepend ">#}
+{#									  <label class="input-group-text" for="inputGroupSelect01">رنگ</label>#}
+{#									</div>#}
+{#									<select class="custom-select" id="inputGroupSelect01">#}
+{#									  <option selected>انتخاب کنید</option>#}
+{#									  <option value="1">قرمز یواش</option>#}
+{#									  <option value="2">آبی سوسماری</option>#}
+{#									  <option value="3">سبز مهربون</option>#}
+{#									</select>#}
+{#								  </div>#}
+{##}
+{#								  <div class="input-group col-md-4 col-9 mb-2">#}
+{#										<div class="input-group-prepend">#}
+{#										  <label class="input-group-text" for="inputGroupSelect01">سایز</label>#}
+{#										</div>#}
+{#										<select class="custom-select" id="inputGroupSelect01">#}
+{#										  <option selected>انتخاب کنید</option>#}
+{#										  <option value="1">بزرگ</option>#}
+{#										  <option value="2">کمی بزرگ</option>#}
+{#										  <option value="3">اصلا کوچیک</option>#}
+{#										</select>#}
+{#									  </div>#}
+{##}
+{#									  <div class="input-group col-md-4 col-9 mb-2">#}
+{#											<div class="input-group-prepend ">#}
+{#											  <label class="input-group-text" for="inputGroupSelect01">تعداد</label>#}
+{#											</div>#}
+{#											<select class="custom-select" id="inputGroupSelect01">#}
+{#											  <option selected value="1">1</option>#}
+{#											  <option value="2">2</option>#}
+{#											  <option value="3">3</option>#}
+{#											  <option value="4">4</option>#}
+{#											  <option value="5">5</option>#}
+{#											  <option value="6">6</option>#}
+{#											  <option value="7">7</option>#}
+{#											  <option value="8">8</option>#}
+{#											  <option value="9">9</option>#}
+{#											  <option value="10">10</option>#}
+{#											</select>#}
+{#										  </div>#}
+{#								</div>#}
+{#							</div>#}
+{#						  </div>#}
+{#						  <hr>#}
+{#						  <div class="row">#}
+{#							  <div class="col-md-12 mb-2 ">#}
+{##}
+{#									<button type="button" class="btn btn-success  float-left"style="padding:0.45rem ; border-radius: .25rem !important;"> اضافه کردن به سبد خرید  <i class="fa fa-cart-plus"></i></button>#}
+{#									<h5><span class="badge badge-danger float-right">1.750.000 تومان</span></h5>#}
+{##}
+{#								</div>#}
+{#						  </div>#}
+{#			</div>#}
+{##}
+{#		</div>#}
+{#		<br>#}
+{#		<div class="row my_back m-b-10">#}
+{#			<div class="col-md-12">#}
+{#					<nav>#}
+{#							<div class="nav nav-tabs" id="nav-tab" role="tablist">#}
+{#							  <a class="nav-item nav-link active mynav-item" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">نقد و بررسی</a>#}
+{#							  <a class="nav-item nav-link mynav-item" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">مشخصات</a>#}
+{#							  <a class="nav-item nav-link mynav-item" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">نظرات کاربران</a>#}
+{#							</div>#}
+{#						  </nav>#}
+{#						  <div class="tab-content" id="nav-tabContent">#}
+{#							<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">#}
+{#									<div class="bg-light" style="border-radius: 0px">#}
+{#											<div class="card-header mycard-header"style="text-align:center"><i class="fa fa-search"></i> نقد و بررسی محصول</div>#}
+{#											<div class="card-body">#}
+{#											  <h5 class="card-title mycard-title"><i class="fa fa-ticket"></i> گوشی موبایل سامسونگ مدل Galaxy A50 SM-A505F/DS دو سیم کارت ظرفیت 128گیگابایت</h5>#}
+{#											  <p class="mycard-text">سامسونگ سال 2019 را با متنوع کردن هرچند بیشتر سری گوشی‌های A خود آغاز کرد. این سری از تولیدات سامسونگ به داشتن صفحه‌نمایش بسیار با کیفیت AMOLED و دوربین‌هایی با امکانات بالا شهرت دارند. در این میان به نظر می‌رسد گوشی «Galaxy A50» حرف‌های زیادی در هر دوی این زمینه‌ها داشته باشد. گوشی موبایل Galaxy A50 با صفحه‌نمایش سوپر آمولد طراحی  شده است و ظاهر زیبایی دارد. سامسونگ تلاش کرده است حاشیه را در این تولید جدید خود تا حد امکان کم کند. این گوشی قاب پشتی از جنس پلاستیک دارد و قاب جلویی آن را شیشه پوشانده که البته جلوه‌ی زیبایی به گوشی داده است. این محصول سامسونگ با جدیدترین نسخه از سیستم‌عامل اندروید (Pie) روانه بازار شده است تا از هر نظر گوشی مدرن به‌حساب بیاید. صفحه‌نمایش استفاده‌شده در این گوشی 6.4 اینچ با رزولوشن FullHD+  است که با استفاده از فناوری Super AMOLED و پنل OLED تصاویر شفاف و بی‌نظیری را به نمایش می‌گذارد. این صفحه‌نمایش در هر اینچ 403 پیکسل را نشان می‌دهد که این یعنی جزئیات و وضوح تصویر عالی است. همچنین روکش این نمایشگر لایه‌ی محافظ Corning Gorilla Glass است که از خط‌وخش و ضربه جلوگیری می‌کند. تراشه‌ی این محصول، Exynos 9610  از تراشه‌های 10 نانومتری سامسونگ است که به همراه  4 گیگابایت رم عرضه می‌شود. این تراشه یکی از قوی‌ترین تراشه‌های موجود در حال حاضر است و برای انجام بازی‌های سنگین و بازکردن چندین برنامه به صورت هم‌زمان و تماشای ویدئو کاملا مناسب است و کم نمی‌آورد. تراشه‌ی گرافیکی Mali-G72 MP3 هم برای پخش ویدئو و بازی مناسب است. این گوشی در دو ظرفیت 64 و 128 گیگابایتی عرضه شده است و با استفاده از یک کارت حافظه‌ی جانبی قادر خواهید بود حافظه داخلی را تا یک ترابایت دیگر هم افزایش دهید. دوربین اصلی  A50 سنسور 25مگاپیکسلی دارد و از نوع عریض (Wide) است. دو سنسور 8  و 5 مگاپیکسلی دیگر هم در کنار این دوربین اصلی مجموعه دوربین‌های قاب پشتی A50 را تشکیل داده‌اند. دوربین سلفی 25مگاپیکسلی هم در قاب جلویی این گوشی به کار گرفته شده است. باتری 4000 میلی‌آمپرساعتی، پشتیبانی از فناوری شارژ سریع 15 واتی، درگاه USB Type-C و حسگر اثرانگشت در زیر قاب اصلی هم از دیگر ویژگی‌های این تازه‌وارد است. سامسونگ در ساخت این گوشی از جدیدترین فناوری‌های ساخت گوشی استفاده کرده است تا میان‌رده‌ای با قابلیت‌های نزدیک به یک بالارده خوش‌ساخت را روانه بازار کند.</p>#}
+{#											</div>#}
+{#										  </div>#}
+{#										  <br>#}
+{#							</div>#}
+{#							<div class="tab-pane fade col-md-10 p-r-0 p-t-1" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">#}
+{#									<table class="table-fill">#}
+{#											<thead>#}
+{#												<h6 class="text-primary p-t-20 p-b-10 p-r-30"><i class="fa fa-chevron-left"></i> مشخصات فنی </h6>#}
+{#											</thead>#}
+{#											<tbody class="table-hover">#}
+{#											<tr>#}
+{#											<td class="text-left main">حافظه داخلی</td>#}
+{#											<td class="text-left">128 گیگابایت</td>#}
+{#											</tr>#}
+{#											<tr>#}
+{#											<td class="text-left main">مقدار RAM</td>#}
+{#											<td class="text-left">4 گیگابایت</td>#}
+{#											</tr>#}
+{#											<tr>#}
+{#											<td class="text-left main">حداکثر ظرفیت کارت حافظه</td>#}
+{#											<td class="text-left">1 ترابایت</td>#}
+{#											</tr>#}
+{#											<tr>#}
+{#											<td class="text-left main">نسخه سیستم عامل</td>#}
+{#											<td class="text-left">Pai 9.0</td>#}
+{#											</tr>#}
+{#											<tr>#}
+{#											<td class="text-left main">مشخصات باتری</td>#}
+{#											<td class="text-left">باتری لیتیوم پلیمری با ظرفیت 4000 میلی آمپر ساعت</td>#}
+{#											</tr>#}
+{#											</tbody>#}
+{#											</table>#}
+{##}
+{#											<table class="table-fill">#}
+{#											<thead>#}
+{#												<h6 class=" text-primary p-t-20 p-b-10 p-r-30"><i class="fa fa-chevron-left"></i> مشخصات کلی </h6>#}
+{#											</thead>#}
+{#											<tbody class="table-hover">#}
+{#											<tr>#}
+{#											<td class="text-left main">ابعاد</td>#}
+{#											<td class="text-left">7.7 × 74.7 × 158.5 میلی‌متر</td>#}
+{#											</tr>#}
+{#											<tr>#}
+{#											<td class="text-left main">وزن</td>#}
+{#											<td class="text-left">166 گرم</td>#}
+{#											</tr>#}
+{#											<tr>#}
+{#											<td class="text-left main">ساختار بدنه</td>#}
+{#											<td class="text-left">قاب جلو شیشه</td>#}
+{#											</tr>#}
+{#											<tr>#}
+{#											<td class="text-left main">ویژگی‌های خاص</td>#}
+{#											<td class="text-left">مناسب عکاسی , فبلت , مجهز به حس‌گر اثرانگشت , مناسب عکاسی سلفی</td>#}
+{#											</tr>#}
+{#											<tr>#}
+{#											<td class="text-left main">تعداد سیم کارت</td>#}
+{#											<td class="text-left">دو سیم کارت</td>#}
+{#											</tr>#}
+{#											</tbody>#}
+{#											</table>#}
+{#											<br>#}
+{#							</div>#}
+{#							#}
+{#							<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">#}
+{#									<div class="row bootstrap snippets">#}
+{#											<div class="col-md-12 col-md-offset-2 col-sm-12">#}
+{#												<div class="comment-wrapper">#}
+{#													<div class="panel panel-info">#}
+{#														#}
+{#														<div class="panel-body">#}
+{#															<textarea class="form-control" placeholder="نظر خود را ثبت کنید" rows="3"></textarea>#}
+{#															<br>#}
+{#															<button type="button" class="btn btn-info pull-right">ثبت نظر</button>#}
+{#															<div class="clearfix"></div>#}
+{#															<hr>#}
+{#															<ul class="media-list">#}
+{#																	<li class="media">#}
+{#																			<a href="#" class="pull-left">#}
+{#																				<img src="https://icon-library.net/images/avatar-png-icon/avatar-png-icon-14.jpg" alt="" class="img-circle">#}
+{#																			</a>#}
+{#																			<div class="media-body">#}
+{#																					<strong class="text-success p-r-10">صالح سعیدی گفته</strong>#}
+{#																				<span class="text-muted pull-left">#}
+{#																					<small class="text-muted">1398 / 06 / 01</small>#}
+{#																				</span>															#}
+{#																				<p class="secondary-text p-r-10">سلام من چند روز پیش پکیج کامل دوتا رو از این سایت خرید کردم و الان بسیار راضی هستم . ممنونم از سایت پهنتون</p>#}
+{#																			</div>#}
+{#																		</li>#}
+{#																<li class="media">#}
+{#																		<a href="#" class="pull-left">#}
+{#																			<img src="https://icon-library.net/images/avatar-png-icon/avatar-png-icon-14.jpg" alt="" class="img-circle">#}
+{#																		</a>#}
+{#																		<div class="media-body">#}
+{#																				<strong class="text-success p-r-10">محمدجواد عظیما گفته</strong>#}
+{#																			<span class="text-muted pull-left">#}
+{#																				<small class="text-muted">1398 / 11 / 05</small>#}
+{#																			</span>															#}
+{#																			<p class="secondary-text p-r-10">قیمت هاتون بسیار بالاست و اصلا بصرفه نیست</p>#}
+{#																		</div>#}
+{#																	</li>#}
+{#																<li class="media">#}
+{#																	<a href="#" class="pull-left">#}
+{#																		<img src="https://icon-library.net/images/avatar-png-icon/avatar-png-icon-14.jpg" alt="" class="img-circle">#}
+{#																	</a>#}
+{#																	<div class="media-body">#}
+{#																			<strong class="text-success p-r-10">عرفان اسماعیلی گفته</strong>#}
+{#																		<span class="text-muted pull-left">#}
+{#																			<small class="text-muted">1398 / 06 / 05</small>#}
+{#																		</span>															#}
+{#																		<p class="secondary-text p-r-10">این گوشی رو من 2 روز پیش سفارش دادم عالیه - ممنون از سایت رسانا الکترونیک بابت خدمات خوبشان</p>#}
+{#																	</div>#}
+{#																</li>#}
+{#															</ul>#}
+{#														</div>#}
+{#													</div>#}
+{#												</div>#}
+{#										#}
+{#											</div>#}
+{#										</div>#}
+{#							</div>#}
+{#						  </div>#}
+{#			</div>#}
+{#		</div>#}
+{##}
+{#		<div class="row my_back m-b-30 m-t-25">#}
+{#			<div class="col-md-12">#}
+{#					<div class="accordion" id="accordionExample">#}
+{#						<h4 class="text-primary p-t-20 p-b-20"> <i class="fa fa-question-circle" aria-hidden="true"></i> سوالات متداول</h4>#}
+{#							<div class = "">#}
+{#							<div class="card-header" id="headingOne">#}
+{#								<h2 class="mb-0">#}
+{#								<button class="btn btn-link my-collapsed-btn text-secondary" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="True" aria-controls="collapseOne">#}
+{#									چرا رسانا الکترونیک؟#}
+{#								</button>#}
+{#								</h2>#}
+{#							</div>#}
+{#						#}
+{#							<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">#}
+{#								<div class="card-body mycard-body">#}
+{#									رسانا الکترونیک به شما تظمین قیمت میدهد و تا 8 روز مهلت تست محصول را به شما میدهد و تظمین اصالت فیزیکی محصول را به شما می دهد.#}
+{#								</div>#}
+{#							</div>#}
+{#							</div>#}
+{#							<div >#}
+{#							<div class="card-header" id="headingTwo">#}
+{#								<h2 class="mb-0">#}
+{#								<button class="btn btn-link collapsed my-collapsed-btn text-secondary" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">#}
+{#									آیا میتوانیم محصول خود را در سایت رسانا الکترونیک به فروش بگذاریم؟#}
+{#								</button>#}
+{#								</h2>#}
+{#							</div>#}
+{#							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">#}
+{#								<div class="card-body mycard-body">#}
+{#									بله حتما . برای اطلاعات بیشتر وارد صفحه ی تماس با ما شوید و پیام خود را ارسال کنید و کارشناسان رسانا الکترونیک با شما تماس خواهند گرفت.#}
+{#								</div>#}
+{#							</div>#}
+{#							</div>#}
+{#							<div>#}
+{#							<div class="card-header" id="headingThree">#}
+{#								<h2 class="mb-0">#}
+{#								<button class="btn btn-link collapsed my-collapsed-btn text-secondary" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">#}
+{#									چجوری یک جنس را مرجوع کنیم؟#}
+{#								</button>#}
+{#								</h2>#}
+{#							</div>#}
+{#							<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">#}
+{#								<div class="card-body mycard-body">#}
+{#									به راحتی .. کافیه وارد پروفایلتون بشید و گزینه مرجوعی را کلیک کنید و فرم را پر کنید - در کوتاه ترین زمان ممکن با شما تماس گرفته می شود و مراحل را خدمت شما توضیح خواهند داد.#}
+{#								</div>#}
+{#							</div>#}
+{#							</div>#}
+{#						</div>#}
+{#				</div>#}
+{#			</div>#}
+{#		</div>#}
+{##}
+{#	</div>#}
+{##}
+{##}
+{#{% endblock content %}#}
 
-{% load static %}
 
-{% block content %}
-
-	<br class="hide-in-mobile">
-	<br class="hide-in-mobile">
-	<br class="hide-in-mobile">
-	<br class="hide-in-mobile">
-	<br class="hide-in-mobile">
-	<br class="hide-in-mobile">
-	<br class="">
-	
-	<div class="container">
-			<nav aria-label="breadcrumb">
-				
-					<ol class="breadcrumb">
-							<p> <i class="fa fa-caret-left" aria-hidden="true"></i> شما اینجا هستید:  &nbsp  &nbsp </p> 
-					  <li class="breadcrumb-item"><a href="/" class = "text-primary">خانه</a></li>
-					  <li class="breadcrumb-item"><a href="/product/" class = "text-primary">محصولات</a></li>
-					  <li class="breadcrumb-item active" aria-current="page">گوشی موبایل سامسونگ مدل Galaxy A50 SM-A505F/DS دو سیم کارت ظرفیت 128گیگابایت</li>
-					</ol>
-				  </nav>
-		<div class="row my_back">
-			<!-- product slider  -->
-			<div class="col-md-5">
-				<div class="row">
-					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-							<ol class="carousel-indicators">
-							  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-							  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-							  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-
-							</ol>
-							<div class="carousel-inner">
-							  <div class="carousel-item active">
-								<a class="imagemodal" data-toggle="modal" data-target="#exampleModalCenter" href="https://dkstatics-public.digikala.com/digikala-products/111460798.jpg?x-oss-process=image/resize,h_800/quality,q_80"><img src="https://dkstatics-public.digikala.com/digikala-products/111460798.jpg?x-oss-process=image/resize,h_800/quality,q_80" class="d-block w-100" alt="..."></a>
-							  </div>
-							  <div class="carousel-item">
-								<a class="imagemodal" data-toggle="modal" data-target="#exampleModalCenter"  href="https://dkstatics-public-2.digikala.com/digikala-products/111460791.jpg?x-oss-process=image/resize,h_800/quality,q_80"><img src="https://dkstatics-public-2.digikala.com/digikala-products/111460791.jpg?x-oss-process=image/resize,h_800/quality,q_80" class="d-block w-100" alt="..."></a>
-							  </div>
-							  <div class="carousel-item">
-								<a class="imagemodal" data-toggle="modal" data-target="#exampleModalCenter"  href="https://dkstatics-public.digikala.com/digikala-products/111460800.jpg?x-oss-process=image/resize,h_800/quality,q_80"><img src="https://dkstatics-public.digikala.com/digikala-products/111460800.jpg?x-oss-process=image/resize,h_800/quality,q_80" class="d-block w-100" alt="..."></a>
-							  </div>
-							</div>
-
-							<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-							  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							  <span class="sr-only">Previous</span>
-							</a>
-							<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-							  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-							  <span class="sr-only">Next</span>
-							</a>
-						  </div>
-					</div>
-					<div class="row m-t-50 m-b-50">
-						<div class="btn-group  myicons-product-detail " role="group" aria-label="Basic example">
-								
-							<button type="button" class="btn btn-light " data-container="body" data-toggle="popover" data-placement="right" data-content="اضافه به علاقه مندی های من"><i class="fa fa-heart-o myheart text-danger	" aria-hidden="true"></i></button>
-							<button type="button" class="btn btn-light" data-container="body" data-toggle="popover" data-placement="left" data-content="اشتراک گذاری"><i class="fa fa-share-alt text-primary" aria-hidden="true"></i></button>
-
-						</div>
-					</div>
-			</div>
-			
+<ul>
 
 
-			<div class="col-md-7">
-					<br class="hide-in-desktop">
-					<div class=" border-light" style="border-radius: 0px">
-							<div class="card-header mycard-header ">گوشی موبایل سامسونگ مدل Galaxy A50 SM-A505F/DS دو سیم کارت ظرفیت 128گیگابایت</div>
-							<div class="card-body">
-							  <h6 class="card-title text-muted">Samsung Galaxy A50 SM-A505F/DS Dual SIM 128GB Mobile Phone</h6>
-							 <div class="row">
-								 <div class="col-md-10">
-									 <br>
-									 <h5><i class="fa fa-th-list"></i> ویژگی های محصول</h5>
-									 <br>
-									 <p class="p-r-10 p-b-10"><i class="fa fa-check"></i> حافظه داخلی : 128 گیگابایت</p>
-									 <p class="p-r-10 p-b-10"><i class="fa fa-check"></i> شبکه های ارتباطی : 2G 3G 4G</p>
-									 <p class="p-r-10 p-b-10"><i class="fa fa-check"></i> مقدار RAM : 4 گیگابایت</p>
-									 <p class="p-r-10 p-b-10"><i class="fa fa-check"></i>باتری قابل تعویض : خیر</p>
-									 <p class="p-r-10 p-b-10"><i class="fa fa-check"></i> تعداد سیم کارت : دو</p>
-									 <br>
-								 </div>
-							  <div class="input-group col-md-4 col-9 mb-2">
-									<div class="input-group-prepend ">
-									  <label class="input-group-text" for="inputGroupSelect01">رنگ</label>
-									</div>
-									<select class="custom-select" id="inputGroupSelect01">
-									  <option selected>انتخاب کنید</option>
-									  <option value="1">قرمز یواش</option>
-									  <option value="2">آبی سوسماری</option>
-									  <option value="3">سبز مهربون</option>
-									</select>
-								  </div>
-
-								  <div class="input-group col-md-4 col-9 mb-2">
-										<div class="input-group-prepend">
-										  <label class="input-group-text" for="inputGroupSelect01">سایز</label>
-										</div>
-										<select class="custom-select" id="inputGroupSelect01">
-										  <option selected>انتخاب کنید</option>
-										  <option value="1">بزرگ</option>
-										  <option value="2">کمی بزرگ</option>
-										  <option value="3">اصلا کوچیک</option>
-										</select>
-									  </div>
-
-									  <div class="input-group col-md-4 col-9 mb-2">
-											<div class="input-group-prepend ">
-											  <label class="input-group-text" for="inputGroupSelect01">تعداد</label>
-											</div>
-											<select class="custom-select" id="inputGroupSelect01">
-											  <option selected value="1">1</option>
-											  <option value="2">2</option>
-											  <option value="3">3</option>
-											  <option value="4">4</option>
-											  <option value="5">5</option>
-											  <option value="6">6</option>
-											  <option value="7">7</option>
-											  <option value="8">8</option>
-											  <option value="9">9</option>
-											  <option value="10">10</option>
-											</select>
-										  </div>
-								</div>
-							</div>
-						  </div>
-						  <hr>
-						  <div class="row">
-							  <div class="col-md-12 mb-2 ">
-
-									<button type="button" class="btn btn-success  float-left"style="padding:0.45rem ; border-radius: .25rem !important;"> اضافه کردن به سبد خرید  <i class="fa fa-cart-plus"></i></button>
-									<h5><span class="badge badge-danger float-right">1.750.000 تومان</span></h5>
-
-								</div>
-						  </div>
-			</div>
-
-		</div>
-		<br>
-		<div class="row my_back m-b-10">
-			<div class="col-md-12">
-					<nav>
-							<div class="nav nav-tabs" id="nav-tab" role="tablist">
-							  <a class="nav-item nav-link active mynav-item" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">نقد و بررسی</a>
-							  <a class="nav-item nav-link mynav-item" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">مشخصات</a>
-							  <a class="nav-item nav-link mynav-item" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">نظرات کاربران</a>
-							</div>
-						  </nav>
-						  <div class="tab-content" id="nav-tabContent">
-							<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-									<div class="bg-light" style="border-radius: 0px">
-											<div class="card-header mycard-header"style="text-align:center"><i class="fa fa-search"></i> نقد و بررسی محصول</div>
-											<div class="card-body">
-											  <h5 class="card-title mycard-title"><i class="fa fa-ticket"></i> گوشی موبایل سامسونگ مدل Galaxy A50 SM-A505F/DS دو سیم کارت ظرفیت 128گیگابایت</h5>
-											  <p class="mycard-text">سامسونگ سال 2019 را با متنوع کردن هرچند بیشتر سری گوشی‌های A خود آغاز کرد. این سری از تولیدات سامسونگ به داشتن صفحه‌نمایش بسیار با کیفیت AMOLED و دوربین‌هایی با امکانات بالا شهرت دارند. در این میان به نظر می‌رسد گوشی «Galaxy A50» حرف‌های زیادی در هر دوی این زمینه‌ها داشته باشد. گوشی موبایل Galaxy A50 با صفحه‌نمایش سوپر آمولد طراحی  شده است و ظاهر زیبایی دارد. سامسونگ تلاش کرده است حاشیه را در این تولید جدید خود تا حد امکان کم کند. این گوشی قاب پشتی از جنس پلاستیک دارد و قاب جلویی آن را شیشه پوشانده که البته جلوه‌ی زیبایی به گوشی داده است. این محصول سامسونگ با جدیدترین نسخه از سیستم‌عامل اندروید (Pie) روانه بازار شده است تا از هر نظر گوشی مدرن به‌حساب بیاید. صفحه‌نمایش استفاده‌شده در این گوشی 6.4 اینچ با رزولوشن FullHD+  است که با استفاده از فناوری Super AMOLED و پنل OLED تصاویر شفاف و بی‌نظیری را به نمایش می‌گذارد. این صفحه‌نمایش در هر اینچ 403 پیکسل را نشان می‌دهد که این یعنی جزئیات و وضوح تصویر عالی است. همچنین روکش این نمایشگر لایه‌ی محافظ Corning Gorilla Glass است که از خط‌وخش و ضربه جلوگیری می‌کند. تراشه‌ی این محصول، Exynos 9610  از تراشه‌های 10 نانومتری سامسونگ است که به همراه  4 گیگابایت رم عرضه می‌شود. این تراشه یکی از قوی‌ترین تراشه‌های موجود در حال حاضر است و برای انجام بازی‌های سنگین و بازکردن چندین برنامه به صورت هم‌زمان و تماشای ویدئو کاملا مناسب است و کم نمی‌آورد. تراشه‌ی گرافیکی Mali-G72 MP3 هم برای پخش ویدئو و بازی مناسب است. این گوشی در دو ظرفیت 64 و 128 گیگابایتی عرضه شده است و با استفاده از یک کارت حافظه‌ی جانبی قادر خواهید بود حافظه داخلی را تا یک ترابایت دیگر هم افزایش دهید. دوربین اصلی  A50 سنسور 25مگاپیکسلی دارد و از نوع عریض (Wide) است. دو سنسور 8  و 5 مگاپیکسلی دیگر هم در کنار این دوربین اصلی مجموعه دوربین‌های قاب پشتی A50 را تشکیل داده‌اند. دوربین سلفی 25مگاپیکسلی هم در قاب جلویی این گوشی به کار گرفته شده است. باتری 4000 میلی‌آمپرساعتی، پشتیبانی از فناوری شارژ سریع 15 واتی، درگاه USB Type-C و حسگر اثرانگشت در زیر قاب اصلی هم از دیگر ویژگی‌های این تازه‌وارد است. سامسونگ در ساخت این گوشی از جدیدترین فناوری‌های ساخت گوشی استفاده کرده است تا میان‌رده‌ای با قابلیت‌های نزدیک به یک بالارده خوش‌ساخت را روانه بازار کند.</p>
-											</div>
-										  </div>
-										  <br>
-							</div>
-							<div class="tab-pane fade col-md-10 p-r-0 p-t-1" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-									<table class="table-fill">
-											<thead>
-												<h6 class="text-primary p-t-20 p-b-10 p-r-30"><i class="fa fa-chevron-left"></i> مشخصات فنی </h6>
-											</thead>
-											<tbody class="table-hover">
-											<tr>
-											<td class="text-left main">حافظه داخلی</td>
-											<td class="text-left">128 گیگابایت</td>
-											</tr>
-											<tr>
-											<td class="text-left main">مقدار RAM</td>
-											<td class="text-left">4 گیگابایت</td>
-											</tr>
-											<tr>
-											<td class="text-left main">حداکثر ظرفیت کارت حافظه</td>
-											<td class="text-left">1 ترابایت</td>
-											</tr>
-											<tr>
-											<td class="text-left main">نسخه سیستم عامل</td>
-											<td class="text-left">Pai 9.0</td>
-											</tr>
-											<tr>
-											<td class="text-left main">مشخصات باتری</td>
-											<td class="text-left">باتری لیتیوم پلیمری با ظرفیت 4000 میلی آمپر ساعت</td>
-											</tr>
-											</tbody>
-											</table>
-
-											<table class="table-fill">
-											<thead>
-												<h6 class=" text-primary p-t-20 p-b-10 p-r-30"><i class="fa fa-chevron-left"></i> مشخصات کلی </h6>
-											</thead>
-											<tbody class="table-hover">
-											<tr>
-											<td class="text-left main">ابعاد</td>
-											<td class="text-left">7.7 × 74.7 × 158.5 میلی‌متر</td>
-											</tr>
-											<tr>
-											<td class="text-left main">وزن</td>
-											<td class="text-left">166 گرم</td>
-											</tr>
-											<tr>
-											<td class="text-left main">ساختار بدنه</td>
-											<td class="text-left">قاب جلو شیشه</td>
-											</tr>
-											<tr>
-											<td class="text-left main">ویژگی‌های خاص</td>
-											<td class="text-left">مناسب عکاسی , فبلت , مجهز به حس‌گر اثرانگشت , مناسب عکاسی سلفی</td>
-											</tr>
-											<tr>
-											<td class="text-left main">تعداد سیم کارت</td>
-											<td class="text-left">دو سیم کارت</td>
-											</tr>
-											</tbody>
-											</table>
-											<br>
-							</div>
-							
-							<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-									<div class="row bootstrap snippets">
-											<div class="col-md-12 col-md-offset-2 col-sm-12">
-												<div class="comment-wrapper">
-													<div class="panel panel-info">
-														
-														<div class="panel-body">
-															<textarea class="form-control" placeholder="نظر خود را ثبت کنید" rows="3"></textarea>
-															<br>
-															<button type="button" class="btn btn-info pull-right">ثبت نظر</button>
-															<div class="clearfix"></div>
-															<hr>
-															<ul class="media-list">
-																	<li class="media">
-																			<a href="#" class="pull-left">
-																				<img src="https://icon-library.net/images/avatar-png-icon/avatar-png-icon-14.jpg" alt="" class="img-circle">
-																			</a>
-																			<div class="media-body">
-																					<strong class="text-success p-r-10">صالح سعیدی گفته</strong>
-																				<span class="text-muted pull-left">
-																					<small class="text-muted">1398 / 06 / 01</small>
-																				</span>															
-																				<p class="secondary-text p-r-10">سلام من چند روز پیش پکیج کامل دوتا رو از این سایت خرید کردم و الان بسیار راضی هستم . ممنونم از سایت پهنتون</p>
-																			</div>
-																		</li>
-																<li class="media">
-																		<a href="#" class="pull-left">
-																			<img src="https://icon-library.net/images/avatar-png-icon/avatar-png-icon-14.jpg" alt="" class="img-circle">
-																		</a>
-																		<div class="media-body">
-																				<strong class="text-success p-r-10">محمدجواد عظیما گفته</strong>
-																			<span class="text-muted pull-left">
-																				<small class="text-muted">1398 / 11 / 05</small>
-																			</span>															
-																			<p class="secondary-text p-r-10">قیمت هاتون بسیار بالاست و اصلا بصرفه نیست</p>
-																		</div>
-																	</li>
-																<li class="media">
-																	<a href="#" class="pull-left">
-																		<img src="https://icon-library.net/images/avatar-png-icon/avatar-png-icon-14.jpg" alt="" class="img-circle">
-																	</a>
-																	<div class="media-body">
-																			<strong class="text-success p-r-10">عرفان اسماعیلی گفته</strong>
-																		<span class="text-muted pull-left">
-																			<small class="text-muted">1398 / 06 / 05</small>
-																		</span>															
-																		<p class="secondary-text p-r-10">این گوشی رو من 2 روز پیش سفارش دادم عالیه - ممنون از سایت رسانا الکترونیک بابت خدمات خوبشان</p>
-																	</div>
-																</li>
-															</ul>
-														</div>
-													</div>
-												</div>
-										
-											</div>
-										</div>
-							</div>
-						  </div>
-			</div>
-		</div>
-
-		<div class="row my_back m-b-30 m-t-25">
-			<div class="col-md-12">
-					<div class="accordion" id="accordionExample">
-						<h4 class="text-primary p-t-20 p-b-20"> <i class="fa fa-question-circle" aria-hidden="true"></i> سوالات متداول</h4>
-							<div class = "">
-							<div class="card-header" id="headingOne">
-								<h2 class="mb-0">
-								<button class="btn btn-link my-collapsed-btn text-secondary" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="True" aria-controls="collapseOne">
-									چرا رسانا الکترونیک؟
-								</button>
-								</h2>
-							</div>
-						
-							<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-								<div class="card-body mycard-body">
-									رسانا الکترونیک به شما تظمین قیمت میدهد و تا 8 روز مهلت تست محصول را به شما میدهد و تظمین اصالت فیزیکی محصول را به شما می دهد.
-								</div>
-							</div>
-							</div>
-							<div >
-							<div class="card-header" id="headingTwo">
-								<h2 class="mb-0">
-								<button class="btn btn-link collapsed my-collapsed-btn text-secondary" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-									آیا میتوانیم محصول خود را در سایت رسانا الکترونیک به فروش بگذاریم؟
-								</button>
-								</h2>
-							</div>
-							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-								<div class="card-body mycard-body">
-									بله حتما . برای اطلاعات بیشتر وارد صفحه ی تماس با ما شوید و پیام خود را ارسال کنید و کارشناسان رسانا الکترونیک با شما تماس خواهند گرفت.
-								</div>
-							</div>
-							</div>
-							<div>
-							<div class="card-header" id="headingThree">
-								<h2 class="mb-0">
-								<button class="btn btn-link collapsed my-collapsed-btn text-secondary" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-									چجوری یک جنس را مرجوع کنیم؟
-								</button>
-								</h2>
-							</div>
-							<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-								<div class="card-body mycard-body">
-									به راحتی .. کافیه وارد پروفایلتون بشید و گزینه مرجوعی را کلیک کنید و فرم را پر کنید - در کوتاه ترین زمان ممکن با شما تماس گرفته می شود و مراحل را خدمت شما توضیح خواهند داد.
-								</div>
-							</div>
-							</div>
-						</div>
-				</div>
-			</div>
-		</div>
-
-	</div>
+            <li><p>{{ object.name }}</p></li>
+            <li><p>{{ object.company }}</p></li>
+            <li><p>{{ object.category }}</p></li>
+            <li><p>{{ object.specifications }}</p></li>
+            <li>{{ object.image }}</li>
+            <li>{{ object.sheet }}</li>
+            <hr>
 
 
-{% endblock content %}
+</ul>

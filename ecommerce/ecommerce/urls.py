@@ -28,6 +28,7 @@ urlpatterns = [
     path('shop/', include('shop.urls')),
     path('contactus/' , include('contactus.urls')),
     path('products/' , include('products.urls')),
+    path('products_detail/' , include('products_detail.urls')),
     path('' , views.index ),
     url(r'^signup/$', views.signup, name='signup'),
 
